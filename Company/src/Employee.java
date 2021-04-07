@@ -7,4 +7,11 @@ public class Employee {
 	this.name = name;
 	this.dept = dept;
 	}
+	
+	void display()
+	{
+	System.out.println("Name is "+name);
+	System.out.println("Dept is "+dept);
+	}
 }
+
